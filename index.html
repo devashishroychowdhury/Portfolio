@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"/>
+    <title>Dev Co.</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li id="web-logo" class="nav-items"> <a href="#">Dev Co.</a></li>
+            <li id="home" class="nav-items"><a href="#">Home</a></li>
+            <li id="about" class="nav-items"><a href="#aboutme">About</a></li>
+            <li id="portfolio" class="nav-items"><a href="#services">Services</a></li>
+            <li id="contact" class="nav-items"><a href="#contact-me">Contact </a></li>
+            <li id="fire" class="nav-items"><a href="#">Fire Me An Email</a></li>
+        </ul>
+    </nav>
+
+    <div class="content">
+       <img src="./images/Untitled design (1).png" alt="background" id="background">
+       <img src="./images/pngwing.com.png" alt="man" id="man-img">
+    
+    
+    <div class="info">
+        <h1>Hi, there</h1>
+        <h2>I'm Devashish</h2>
+        <p>Web Developer and Designer</p>
+        <section id="logo">
+           <a href="www.facebook.com"><i class="fa-brands fa-facebook"></i></a> 
+           <a href="www.gmail.com"><i class="fa-solid fa-envelope"></i></a> 
+           <a href="www.instagram.com"><i class="fa-brands fa-instagram"></i></a> 
+           <a href="www.linkedin.com"><i class="fa-brands fa-linkedin"></i></a> 
+        </section>
+        <button>Hire Me</button>
+    </div>
+</div>
+
+<div class="about-me" id="aboutme">
+    <img src="./images/pngwing.com.png" alt="man">
+    <section>
+        <h2>About Me</h2>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere modi, molestiae fugit iste eos vero perspiciatis reiciendis molestias, deleniti repudiandae inventore, praesentium dicta iusto est ex laboriosam consequatur eaque officiis!</p>
+        <button>Download CV</button>
+    </section>
+</div>
+
+<div class="services" id="services">
+    <h1>Our Services</h1>
+    <section id="service-sec">
+        <div class="service-type">
+            <img src="./images/Web-dev.png" alt="Web-dev-img">
+            <h2>Web Development</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa reprehenderit ipsa quidem consequuntur sequi maiores assumenda rerum harum a et exercitationem nisi numquam laboriosam ad eos, unde tempore. Qui tenetur nostrum minus iusto, cum fugiat iste provident tempora tempore autem.</p>
+            <p class="service-link"><a href="#">Learn More</a></p>
+        </div>
+        <div class="service-type">
+            <img src="./images/UI-UX.png" alt="UI-UX-img" >
+            <h2>UI/UX Design</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita quia pariatur cum ut assumenda quod esse quas ipsam error, optio provident temporibus deserunt, molestias recusandae aliquam quae nemo harum eaque velit atque architecto nostrum sequi? Fugiat possimus dicta iusto quos.</p>
+            <p class="service-link"><a href="#">Learn More</a></p>
+        </div>
+        <div class="service-type">
+            <img src="./images/Wordpress.png" alt="Wordpress-img">
+            <h2>Wordpress Development</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi quidem animi necessitatibus numquam, ullam fugiat, cum ab explicabo harum perferendis eligendi voluptate! Cupiditate, neque? Dolorum animi quaerat ex expedita magni voluptatum quidem eos? Velit fugit quasi dolore officia praesentium eligendi!</p>
+            <p class="service-link"><a href="#">Learn More</a></p>
+        </div>
+    </section>
+</div>
+
+<div class="testimonials">
+    <h1>Our Clients</h1>
+    <div class="cards">
+         <div id="client1">
+            <img src="./images/Testimonial-1.jpg" alt="testimonial-img" id="img-1">
+            <div class="description">
+                <h2>Henry Williams</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Dolore officia sed unde, beatae laboriosam nihil tempora nostrum consequatur eveniet odio?
+                    Temporibus repellat sapiente sequi enim aperiam iure quo dolorem expedita!
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Quo voluptates magnam nemo sed maxime incidunt adipisci repellat quisquam assumenda fugiat.</p>
+
+                </div>
+            </div>
+
+            <div id="client2">
+                <img src="./images/women copy.png" alt="testimonial-img" id="img-2">
+                <div class="description">
+                    <h2>Jenny Walter</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, modi! 
+                    Optio non consequuntur adipisci eveniet nemo iure rerum explicabo exercitationem.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, recusandae. 
+                    Asperiores cumque error quas minus ipsam hic reiciendis quos laboriosam.</p>
+                </div>
+            </div>
+        </div>
+</div>
+
+<div class="contact" id="contact-me">
+    <section id="heading">Contact Me</section>
+     <form action="index.html" method="POST">
+        <section id="inputs">
+            <input type="name" id="name" placeholder="Your Name">
+            <input type="email" id="email" placeholder="Enter Email">
+        </section>
+        <textarea id="text" cols="30" rows="10" placeholder="Write something"></textarea>
+        <button id="submit" value="Send Message" onclick="run()">Send Message</button>
+     </form>    
+</div>
+
+<div class="footer">
+    <div class="email-sec">
+        <h2>Subscribe to Dev Co.</h2>
+        <label for="email">Join with Us</label>
+        <input type="email" alt="email" placeholder="Enter your e-mail address">
+        <input type="button" id="subscribe" value="Subscribe"> 
+    </div>
+</div>
+
+</body>
+
+<script src="script.js"></script>
+
+</html>
